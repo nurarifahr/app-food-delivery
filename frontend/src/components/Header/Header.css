@@ -1,0 +1,17 @@
+@reference 'tailwindcss';
+
+.header{
+    @apply bg-[url(./public/header_img.png)] relative bg-contain h-[34vw] bg-no-repeat my-8 bg-center;
+}
+.header-content{
+    @apply absolute flex flex-col items-start max-w-[45%] left-[6vw] bottom-[10%];
+}
+.header-content h2{
+    @apply text-white text-6xl font-medium leading-18;
+}
+.header-content p{
+    @apply text-white text-sm py-4;
+}
+.button-view{
+    @apply bg-white border-slate-50 text-slate-700 px-7 py-2;
+}

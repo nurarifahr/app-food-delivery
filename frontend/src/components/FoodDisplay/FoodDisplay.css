@@ -1,0 +1,11 @@
+@reference 'tailwindcss';
+
+.food-display{
+    @apply mt-8;
+}
+.food-display h2{
+    @apply text-2xl font-semibold;
+}
+.food-display-list{
+    @apply grid grid-cols-4 mt-8 gap-6;
+}

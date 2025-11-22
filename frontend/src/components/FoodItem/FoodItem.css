@@ -1,0 +1,35 @@
+@reference 'tailwindcss';
+
+.food-item{
+    @apply overflow-hidden w-full m-auto rounded-2xl shadow-xl;
+}
+.food-item-info{
+    @apply p-5;
+}
+.food-item-name-rating{
+    @apply flex justify-between items-center mb-2.5;
+}
+.food-item-name-rating p{
+    @apply font-medium text-[16px];
+}
+.food-item-name-rating img{
+    @apply w-[70px];
+}
+.food-item-desc{
+    @apply text-slate-700 text-xs;
+}
+.food-item-price{
+    @apply text-orange-600 text-xl font-medium my-2.5;
+}
+.food-item-img-container{
+    @apply relative;
+}
+.food-item-img-container .add{
+    @apply w-9 absolute bottom-3.5 right-3.5 cursor-pointer rounded-[50%];
+}
+.food-item-counter{
+    @apply absolute bottom-3.5 right-3.5 flex items-center gap-2.5 p-1.5 rounded-[50px] bg-white;
+}
+.food-item-counter img{
+    width: 30px;
+}

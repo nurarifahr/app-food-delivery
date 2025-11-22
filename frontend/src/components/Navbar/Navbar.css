@@ -1,0 +1,34 @@
+@reference "tailwindcss";
+
+/* main */
+.navbar{
+    @apply flex flex-row justify-between pt-6 items-center text-slate-700;
+}
+
+/* middle */
+.nav-menu{
+    @apply flex flex-row gap-10;
+}
+.active{
+    @apply border-b-2 border-slate-600;
+}
+li{
+    @apply cursor-pointer;
+}
+
+/* end */
+.nav-list{
+    @apply flex flex-row gap-10 items-center;
+}
+.icon-search{
+    @apply w-6 h-auto object-contain cursor-pointer;
+}
+.icon-basket{
+    @apply w-6 h-auto object-contain cursor-pointer;
+}
+.notif{
+    @apply absolute bg-red-500 rounded-full w-2 h-2 -top-1 -right-1;
+}
+button{
+    @apply border border-slate-600 px-6 py-1 rounded-full cursor-pointer;
+}
