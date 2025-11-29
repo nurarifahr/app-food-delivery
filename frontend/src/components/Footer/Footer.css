@@ -1,0 +1,27 @@
+@reference 'tailwindcss';
+
+.footer{
+    @apply flex flex-col bg-gray-900 text-slate-200 items-center px-10 pt-20 gap-5 pb-5 mt-32;
+}
+.footer-social-icons img{
+    @apply w-10 mr-4;
+}
+.footer-social-icons{
+    @apply flex;
+}
+.footer-content{
+    grid-template-columns: 2fr 1fr 1fr;
+    @apply w-full grid gap-20;
+}
+.footer-content-left, .footer-content-right, .footer-content-center{
+    @apply flex flex-col items-start gap-5;
+}
+.footer-content-left li, .footer-content-right li, .footer-content-center li{
+    @apply mb-2.5 cursor-pointer;
+}
+.footer-content-right h2, .footer-content-center h2{
+    @apply text-white font-black text-lg;
+}
+.footer hr{
+    @apply w-full h-0.5 mx-5 mt-5 bg-gray-500 border-0;
+}
