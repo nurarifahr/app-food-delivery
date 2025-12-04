@@ -1,0 +1,14 @@
+@reference 'tailwindcss';
+
+.app-download{
+    @apply m-auto mt-24 text-3xl items-center font-medium text-center;
+}
+.app-download-platforms{
+    @apply flex justify-center gap-5 mt-10
+}
+.app-download-platforms img{
+    @apply w-28 max-w-44 cursor-pointer;
+}
+.app-download-platforms img:hover{
+    @apply scale-[1.05];
+}

@@ -9,3 +9,9 @@
 .food-display-list{
     @apply grid grid-cols-4 mt-8 gap-6;
 }
+
+@media (max-width:1050px){
+    .food-display-list{
+        @apply grid grid-cols-1;
+    }
+}

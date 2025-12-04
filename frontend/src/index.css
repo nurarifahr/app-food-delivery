@@ -3,8 +3,8 @@
 @import 'tailwindcss';
 
 *{
-  /* overflow-x: hidden; */
   font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
 }
 .app{
   @apply w-4/5 mx-auto;

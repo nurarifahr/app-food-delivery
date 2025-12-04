@@ -15,3 +15,24 @@
 .button-view{
     @apply bg-white border-slate-50 text-slate-700 px-7 py-2;
 }
+
+@media (max-width:1050px){
+    .header-content{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px){
+    .header-content{
+        max-width: 65%;
+    }
+    .header-content p{
+        display: none;
+    }
+    .header-content button{
+        padding: 2vw 4vw;
+    }
+    .header-content h2{
+        @apply text-xl leading-6 pb-2;
+    }
+}

@@ -22,8 +22,14 @@
     @apply mt-2 text-slate-600 text-center;
 }
 .explore-container hr{
-    @apply my-2.5 h-0.5 text-slate-400
+    @apply my-2.5 h-0.5 text-slate-400;
 }
 .explore-list .active{
     @apply border-3 rounded-full border-orange-600 p-0.5;
+}
+
+@media (max-width:1050px){
+    .explore-container p{
+        @apply w-full text-sm;
+    }
 }
