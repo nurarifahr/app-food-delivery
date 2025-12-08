@@ -1,0 +1,60 @@
+@reference 'tailwindcss';
+
+.cart{
+    @apply mt-28;
+}
+.cart-items-title{
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    @apply grid items-center text-gray-700 text-xs;
+}
+.cart-items-item{
+    @apply mx-2.5 text-black;
+}
+.cart-items-item img{
+    @apply w-[50px];
+}
+.cart hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.cart-items-item .cross{
+    @apply cursor-pointer;
+}
+.cart-bottom{
+    gap: max(12vw,20px);
+    @apply mt-20 flex justify-between;
+}
+.cart-total{
+    flex: 1;
+    @apply flex flex-col gap-5;
+}
+.cart-total-details{
+    @apply flex justify-between text-slate-800 border-b border-slate-400 p-0.5;
+}
+.cart-total-details-total{
+    @apply font-medium text-black flex justify-between border-0;
+}
+.cart-total hr{
+    @apply mx-2.5;
+}
+.cart-total button{
+    width: max(15vw,250px);
+    @apply border-0 text-white bg-orange-600 px-3 rounded-sm cursor-pointer py-2;
+}
+.cart-promocode{
+    flex: 1;
+}
+.cart-promocode p {
+    @apply text-slate-600;
+}
+.cart-promocode-input{
+    @apply mt-2.5 flex justify-between items-center bg-slate-100 rounded-sm;
+}
+.cart-promocode-input input{
+    @apply bg-transparent pl-2.5;
+}
+.cart-promocode-input button{
+    width: max(10vw,150px);
+    @apply px-3 py-1.5 bg-black border-0 text-white rounded-sm;
+}
